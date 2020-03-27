@@ -40,6 +40,9 @@ public class Decodificador extends Aplicacao{
 		this.linha = linha;
 		this.pathSaida = pathSaida;
 	}
+	public Decodificador() {
+		
+	}
 	public void chamaInstrucao() {
 		switch(linha.length) {
 		case 1:
